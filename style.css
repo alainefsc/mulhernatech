@@ -88,9 +88,58 @@ footer{
   padding: 10px;
 }
 
-video {
-  display: block; /* Torna a imagem um bloco para centralização horizontal */
-  margin: 0 auto; /* Centraliza horizontalmente */
-  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-  height: auto; /* Mantém a proporção da imagem */
+ /* Estilo para a div de vídeo */
+ .video {
+  display: flex; /* Usa flexbox para alinhar os vídeos horizontalmente */
+  justify-content: space-between; /* Espaçamento igual entre os vídeos */
+  margin: 20px 0; /* Margem superior e inferior para separação */
+}
+
+/* Estilo para os vídeos dentro da div */
+.video iframe {
+  max-width: 48%; /* Largura máxima para cada vídeo */
+  height: auto;
+}
+
+li{
+  color: #eaf0ea;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 18px;
+  flex: 1;
+  padding: 10px;
+  display: inline;
+  background-color: rgb(25, 228, 18);
+  justify-content: center;
+
+}
+.menu {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  background-color: #0ff50f; /* Cor de fundo inicial */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+a:hover {
+  background-color: #df8e24; /* Cor de fundo quando o mouse passa por cima */
+  border-radius: 5px; /* Borda arredondada */
+}
+
+#ref {
+  text-align: center;
+  justify-content: center;
 }
