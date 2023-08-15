@@ -1,0 +1,96 @@
+body {
+  font-family: initial;
+  padding: 0;
+  background-color: #000000fb;
+  color: #ccdbcf;
+  background-image: url(imagens/bg.jpg);
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o corpo */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-attachment: fixed; /* Mantém o plano de fundo fixo enquanto a página é rolada */
+  margin: 0; /* Adicionei essa linha para ajustar as margens também */
+}
+
+
+
+
+.tema h1 {
+    color: #eaf0ea;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+    flex: 1;
+    padding: 20px;
+}
+
+.logo {
+  max-width: 50%;
+  height: auto;
+}
+
+.conteiner {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  }
+
+.nina img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 20%;
+ 
+}
+
+p{
+  color: #eaf0ea;
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 18px;
+  flex: 1;
+  padding: 10px;
+}
+
+#menu {
+  color: #eaf0ea;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 22px;
+  flex: 1;
+  padding: 10px;
+}
+
+h3 {
+  color: #eaf0ea;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  flex: 1;
+  padding: 10px;
+  background-color: green; /* Cor de fundo verde */
+  color: white; /* Cor do texto branca */
+  padding: 2px; /* Espaçamento interno para melhorar a aparência */
+  font-size: 25px;
+}
+
+img {
+  display: block; /* Torna a imagem um bloco para centralização horizontal */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  border-radius: 40%; /* Torna a imagem arredondada */
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+footer{
+  color: #eaf0ea;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  flex: 1;
+  padding: 10px;
+}
+
+video {
+  display: block; /* Torna a imagem um bloco para centralização horizontal */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}
